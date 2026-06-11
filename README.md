@@ -6,15 +6,15 @@ Production-ready AWS infrastructure provisioned with Terraform. Covers VPC, EC2,
 
 ```
                          ┌─────────────────────────────────────┐
-                         │              AWS VPC                 │
-                         │          (10.0.0.0/16)               │
-                         │                                      │
+                         │              AWS VPC                │
+                         │          (10.0.0.0/16)              │
+                         │                                     │
                          │  ┌──────────────┐ ┌──────────────┐  │
              Internet ───┼─►│ Public Subnet│ │ Public Subnet│  │
                          │  │  AZ-1        │ │  AZ-2        │  │
                          │  │  EC2 + IGW   │ │              │  │
                          │  └──────────────┘ └──────────────┘  │
-                         │                                      │
+                         │                                     │
                          │  ┌──────────────┐ ┌──────────────┐  │
                          │  │Private Subnet│ │Private Subnet│  │
                          │  │  AZ-1        │ │  AZ-2        │  │
@@ -23,10 +23,10 @@ Production-ready AWS infrastructure provisioned with Terraform. Covers VPC, EC2,
                          └─────────────────────────────────────┘
                                          │
                               ┌──────────┴──────────┐
-                              │          │           │
-                           ┌──┴──┐   ┌──┴──┐   ┌───┴──┐
-                           │ EC2 │   │ EKS │   │  S3  │
-                           └─────┘   └─────┘   └──────┘
+                              │         │           │
+                           ┌──┴──┐   ┌──┴──┐    ┌───┴──┐
+                           │ EC2 │   │ EKS │    │  S3  │
+                           └─────┘   └─────┘    └──────┘
 ```
 
 ## Modules
