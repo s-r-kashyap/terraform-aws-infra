@@ -167,4 +167,4 @@ terraform-aws-infra/
 
 ## Author
 
-Shashank R Kashyap — [LinkedIn](https://linkedin.com/in/shashank-r-kashyap-656480149) · DevOps Engineer @ TCS
+Shashank R Kashyap — [LinkedIn](https://linkedin.com/in/shashank-r-kashyap-656480149) · DevOps Engineer
